@@ -1,0 +1,11 @@
+[package]
+name = "c-rust"
+version = "0.1.0"
+authors = ["Klas Segeljakt <klasseg@kth.se>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.0.61"
